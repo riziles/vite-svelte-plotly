@@ -4,8 +4,7 @@
   import viteLogo from '/vite.svg'
   import Plotly from 'plotly.js-dist-min'
 
-  /** @type {HTMLCanvasElement} */
-  let tester
+  let tester:HTMLElement
 
   let val = 12
 
@@ -51,8 +50,5 @@
   }
   .logo.svelte:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
   }
 </style>
